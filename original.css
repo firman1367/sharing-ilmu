@@ -1,0 +1,80 @@
+.navbar-brand{
+	font-size: 26px;
+}
+.navbar-nav{
+	font-size: 18px;
+}
+.list-group-item a{
+	color: black;
+}
+.menu_nav{
+	list-style-type: none;
+	padding: 0px;
+}
+.menu_nav li{
+	background-color: #F4F4F4;
+	line-height: 29px;
+	padding:7px;
+	margin-bottom: 5px;
+}
+.menu_nav a{
+	text-decoration: none;
+	color:rgba(68, 68, 68, 0.87);
+}
+.menu_nav li:hover{
+	background-color: #EEECEC;
+}
+.read{
+	margin-top: 5px;
+	border-top:2px solid #F0EFEF;
+}
+.read a{
+	margin-top: 10px;
+	float: right;
+}
+.img_berita{
+	width:200px;
+	height: 182px;
+	float:left;
+	margin-right:10px;
+	border:0px solid #C2C2C2;
+	border-radius:5px;
+}
+thead {
+	background-color:#3C8DBC;
+	color:white;
+}
+.pagination{
+	margin: 0px 0px 20px 0px;
+}
+.thumbnail {
+	padding: 5px;
+	border: 2px solid #C2C2C2;
+	border-radius: 5px;
+  }
+.thumbnail > p {
+  	margin-top: 5px;
+  	color: #555;
+}
+.thumbnail > img{
+	height: 150px;
+}
+.logo_free{
+	background-color: #3D9970 !important;
+	color: white;
+	padding: 5px;
+	position: absolute;
+	font-weight: bold;
+}
+
+.link_berita{
+	color: white;
+}
+
+.link_berita:hover{
+	color: #EAEAEA;
+}
+
+.widget-user-header {
+	background: url('dist/img/s4.jpg') ;
+}

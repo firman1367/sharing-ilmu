@@ -1,0 +1,11 @@
+RewriteEngine On
+
+RewriteBase /sharing-ilmu/
+RewriteRule ^profile$ index.php?menu=profile [L]
+RewriteRule ^galeri$ index.php?menu=galeri [L]
+RewriteRule ^ebook$ index.php?menu=ebook [L]
+RewriteRule ^home$ index.php?menu=home [L]
+RewriteRule ^upload$ index.php?menu=upload [L]
+RewriteRule ^home-halaman-([0-9a-zA-Z-]+)/?$ index.php?menu=home&halaman=$1 [L]
+RewriteRule ^artikel-([0-9a-zA-Z-]+)/?$ index.php?artikel=$1 [L]
+RewriteRule ^kategori-([0-9a-zA-Z-]+)/?$ index.php?kategori=$1 [L]
